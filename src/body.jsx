@@ -27,7 +27,7 @@ function Body() {
                     The festival symbolizes the victory of good over evil and the end of winter blues.  
                 </p>
                 <p className={styles.text}>
-                    Traditionally, Holi begins with a bonfire called **Holika Dahan**, followed by a day of playing with colors, known as **Rangwali Holi**. 
+                    Traditionally, Holi begins with a bonfire called Holika Dahan, followed by a day of playing with colors, known as Rangwali Holi. 
                     It is a time for unity, friendship, and spreading happiness.  
                 </p>
             </div>

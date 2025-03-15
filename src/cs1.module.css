@@ -168,7 +168,6 @@ body {
 .orange { background: url(./img4.avif) center/cover no-repeat; }
 .black { background: url(./img5.webp) center/cover no-repeat; }
 .gray { background: url(./img6.avif) center/cover no-repeat; }
-.white { background: url(./img3.avif) center/cover no-repeat; }
 
 .red:hover, .blue:hover, .green:hover, .orange:hover, .black:hover, .gray:hover, .white:hover {
     transform: scale(1.2);

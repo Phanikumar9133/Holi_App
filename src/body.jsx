@@ -5,10 +5,9 @@ function Body() {
         <div className={styles.main}>
             <h1 className={styles.title}>Happy Holi...❤️</h1>
 
-            {/* Video Section */}
             <div className={styles.videoContainer}>
                 <video 
-                    id="video1" 
+                   
                     src="./holy1.mp4" 
                     controls 
                     autoPlay 
@@ -18,7 +17,6 @@ function Body() {
                 />
             </div>
 
-            {/* Holi Festival Description */}
             <div className={styles.desc}>
                 <h2 className={styles.subTitle}>Festival of Colors & Joy</h2>
                 <p className={styles.text}>
@@ -32,7 +30,6 @@ function Body() {
                 </p>
             </div>
 
-            {/* Color Palette Section */}
             <div className={styles.colorSection}>
                 <h2 className={styles.subTitle}>Colors of Holi</h2>
                 <div className={styles.colorContainer}>
@@ -42,10 +39,6 @@ function Body() {
                 </div>
             </div>
 
-            {/* Footer */}
-            <footer className={styles.footer}>
-                <p>Holi is not just about colors, it's about spreading love, laughter, and positivity! 🎨✨</p>
-            </footer>
         </div>
     );
 }

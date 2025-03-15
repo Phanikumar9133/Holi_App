@@ -33,16 +33,16 @@ function Footer() {
                 <div className={styles.footerSection}>
                     <h3>Follow Us</h3>
                     <div className={styles.socialIcons}>
-                        <a href="#" className={styles.icon}><i className="fab fa-facebook"></i></a>
-                        <a href="#" className={styles.icon}><i className="fab fa-instagram"></i></a>
-                        <a href="#" className={styles.icon}><i className="fab fa-twitter"></i></a>
-                        <a href="#" className={styles.icon}><i className="fab fa-youtube"></i></a>
+                        <p className={styles.icon}><i className="fab fa-facebook"></i></p>
+                        <p className={styles.icon}><i className="fab fa-instagram"></i></p>
+                        <p  className={styles.icon}><i className="fab fa-twitter"></i></p>
+                        <p className={styles.icon}><i className="fab fa-youtube"></i></p>
                     </div>
                 </div>
             </div>
 
             <div className={styles.footerBottom}>
-                <p>© {new Date().getFullYear()} Holi Festival | All Rights Reserved</p>
+                <p>©  Holi Festival | All Rights Reserved</p>
             </div>
         </footer>
     );

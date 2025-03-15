@@ -5,7 +5,8 @@ function Body() {
         <div className={styles.main}>
             <h1 className={styles.title}>Happy Holi...❤️</h1>
 
-            <div className={styles.videoContainer}>
+            <div className={styles.videoContainer} >
+
                 <video 
                    
                     src="./holy1.mp4" 
@@ -31,10 +32,11 @@ function Body() {
             </div>
 
             <div className={styles.colorSection}>
-                <h2 className={styles.subTitle}>Colors of Holi</h2>
                 <div className={styles.colorContainer}>
                     {["red", "blue", "green", "orange", "black", "gray", "white"].map(color => (
-                        <div key={color} className={styles[color]}></div>
+                        <div key={color} className={styles[color]}>
+
+                        </div>
                     ))}
                 </div>
             </div>

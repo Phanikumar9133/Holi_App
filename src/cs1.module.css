@@ -137,8 +137,11 @@ body {
 /* Color Container */
 .colorContainer {
     display: flex;
+    position: relative;
+    top: 100px;
     justify-content: center;
-    gap: 10px; /* Adjust gap to remove extra space */
+align-items: center;
+    gap: 20px; /* Adjust gap to remove extra space */
     flex-wrap: wrap;
     padding-bottom: 0; /* Fix space below images */
     margin-bottom: 0;

@@ -7,20 +7,9 @@ function Footer() {
                 <div className={styles.footerSection}>
                     <h3>About Holi</h3>
                     <p>
-                        Holi, the festival of colors, marks the arrival of spring and the victory of good over evil. 
-                        It is celebrated with joyous gatherings, music, and vibrant color play. Let’s spread love and happiness! 
+                        Holi, the festival of colors, marks the arrival of spring and the victory of good over evil.
+                        It is celebrated with joyous gatherings, music, and vibrant color play. Let’s spread love and happiness!
                     </p>
-                </div>
-
-                <div className={styles.footerSection}>
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Colors</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
                 </div>
 
                 <div className={styles.footerSection}>
@@ -35,7 +24,7 @@ function Footer() {
                     <div className={styles.socialIcons}>
                         <p className={styles.icon}><i className="fab fa-facebook"></i></p>
                         <p className={styles.icon}><i className="fab fa-instagram"></i></p>
-                        <p  className={styles.icon}><i className="fab fa-twitter"></i></p>
+                        <p className={styles.icon}><i className="fab fa-twitter"></i></p>
                         <p className={styles.icon}><i className="fab fa-youtube"></i></p>
                     </div>
                 </div>
@@ -49,4 +38,3 @@ function Footer() {
 }
 
 export default Footer;
- 
